@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     public void button6(View view) {
         preco = 4;
         calculo();
-    }
+    }//DFSADA
 
     public void reduz(View view) {
         if (n > 0) {
