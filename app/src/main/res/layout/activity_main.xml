@@ -14,7 +14,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="245dp"
+            android:layout_height="235dp"
             android:src="@drawable/cafe_logo" />
 
         <LinearLayout
@@ -151,6 +151,14 @@
                 android:text="Preco Total:0"
                 android:textAlignment="center"
                 android:textSize="5mm" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="toast"
+                android:text="Fazer Pedido"
+                android:textSize="3mm" />
         </LinearLayout>
     </LinearLayout>
 
