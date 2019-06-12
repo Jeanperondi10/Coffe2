@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 sendEmail.setType("*/*");
                 String[] endereco = {"cafe.do.ifc.concordia@gmail.com"};
                 sendEmail.putExtra(Intent.EXTRA_EMAIL, endereco);
-                sendEmail.putExtra(Intent.EXTRA_TEXT, "Voce fez um pedido de cafe pelo aplicativo do Jean Perondi\nTipo:" + tipo + "\nPreco unid:" + preco + "\nQuantidade:" + total + "\nTotal:" + total);
+                sendEmail.putExtra(Intent.EXTRA_TEXT, "Voce fez um pedido de cafe pelo aplicativo do Jean Perondi\nTipo:" + tipo + "\nPreco unid:" + preco + "\nQuantidade:" + n + "\nTotal:" + total);
                 sendEmail.putExtra(Intent.EXTRA_SUBJECT, "Pedido de café");
                 if (sendEmail.resolveActivity(getPackageManager()) != null) {
                     startActivity(sendEmail);
